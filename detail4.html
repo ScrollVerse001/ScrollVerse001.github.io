@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>千里江山图 | ScrollVerse画卷宇宙</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', system-ui, sans-serif;
+            background-color: #faf7f2;
+            color: #3e2a1f;
+            line-height: 1.5;
+        }
+        .navbar {
+            background-color: #2c2418;
+            padding: 0 5%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        .logo a {
+            color: #e6d5b8;
+            font-size: 1.6rem;
+            font-weight: 500;
+            text-decoration: none;
+            letter-spacing: 2px;
+            padding: 14px 0;
+            display: inline-block;
+        }
+        .logo span { color: #c79a2e; font-weight: bold; }
+        .nav-links {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            list-style: none;
+        }
+        .nav-links li a {
+            display: inline-block;
+            padding: 14px 18px;
+            color: #f0e2c5;
+            text-decoration: none;
+            font-size: 1rem;
+            transition: 0.2s;
+            border-radius: 6px;
+        }
+        .nav-links li a:hover { background-color: #4a3827; color: #ffdf9c; }
+        .back-btn {
+            background: #2c2418;
+            color: #f0e2c5;
+            border: none;
+            padding: 8px 20px;
+            border-radius: 30px;
+            cursor: pointer;
+            font-size: 0.9rem;
+            margin-left: 20px;
+        }
+        .back-btn:hover { background: #4a3827; }
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 40px 20px 60px;
+        }
+        .detail-card {
+            background: white;
+            border-radius: 32px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+            border: 1px solid #f0e2cf;
+        }
+        .detail-img {
+            width: 100%;
+            max-height: 500px;
+            object-fit: cover;
+        }
+        .detail-content {
+            padding: 35px;
+        }
+        .detail-title {
+            font-size: 2.2rem;
+            color: #2c2418;
+            margin-bottom: 8px;
+	    text-align: center;
+        }
+        .detail-en {
+            color: #b87c2e;
+            font-size: 1rem;
+            margin-bottom: 20px;
+            letter-spacing: 1px;
+	    text-align: center;
+        }
+        .detail-section {
+            margin-bottom: 25px;
+        }
+        .detail-section h3 {
+            font-size: 1.3rem;
+            color: #b87c2e;
+            margin-bottom: 10px;
+            border-left: 4px solid #b87c2e;
+            padding-left: 12px;
+        }
+        .detail-section p {
+            font-size: 1rem;
+            color: #4a3520;
+            line-height: 1.7;
+            margin-bottom: 12px;
+        }
+        .culture-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 10px;
+        }
+        .culture-tag {
+            background: #efe1cf;
+            padding: 5px 15px;
+            border-radius: 30px;
+            font-size: 0.85rem;
+            color: #5a3a1f;
+        }
+        .lang-box {
+            background: #f5efe6;
+            padding: 20px;
+            border-radius: 24px;
+            margin-top: 20px;
+        }
+        .lang-box h4 {
+            margin-bottom: 12px;
+            color: #2c2418;
+        }
+        .lang-item {
+            display: inline-block;
+            background: white;
+            padding: 6px 14px;
+            margin: 5px 8px 5px 0;
+            border-radius: 25px;
+            font-size: 0.85rem;
+            border: 1px solid #e0cfbc;
+        }
+        .footer {
+            text-align: center;
+            padding: 28px 20px;
+            background: #2c2418;
+            color: #cbbd9f;
+            font-size: 0.85rem;
+            margin-top: 40px;
+        }
+        @media (max-width: 760px) {
+            .navbar { flex-direction: column; padding: 8px 5%; }
+            .detail-content { padding: 20px; }
+            .detail-title { font-size: 1.6rem; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="navbar">
+    <div class="logo"><a href="index.html">Scroll<span>Verse</span> · 画卷宇宙</a></div>
+    <button class="back-btn" onclick="history.back()">← 返回</button>
+</div>
+
+<div class="container">
+    <div class="detail-card">
+        <img class="detail-img" src="http://art.people.com.cn/NMediaFile/2024/1009/MAIN17284583727886IW0N0YK2L.jpg" alt="千里江山图">
+        <div class="detail-content">
+            <h1 class="detail-title">《千里江山图》</h1>
+            <div class="detail-en">A Thousand Miles of Rivers and Mountains · Wang Ximeng, Northern Song</div>
+            
+            <div class="detail-section">
+                <p>《千里江山图》是北宋天才少年王希孟18岁时所作，现藏于北京故宫博物院。全卷纵51.5厘米、横1191.5厘米，以整绢绘成，被誉为中国青绿山水画的巅峰之作。
+</p>
+                <p>A Thousand Miles of Rivers and Mountains was created by Wang Ximeng, a prodigy of the Northern Song Dynasty, at the age of eighteen. Now housed in the Palace Museum, Beijing, this masterpiece is painted on a single piece of silk, measuring 51.5 cm in height and 1,191.5 cm in width. It is widely regarded as the pinnacle of Chinese blue-green landscape painting.</p>
+                <p>画作采用石青、石绿等矿物颜料，色调沉静而璀璨，如宝石般熠熠生辉。峰峦起伏、江河浩渺，其间点缀渔村、水榭、长桥与人物飞鸟，虽细微如豆，却栩栩如生。构图上融合高远、深远与平远，步移景异，气象万千。</p>
+                <p>Using mineral pigments such as azurite and malachite, the scroll presents a serene yet radiant palette, jewel-like in its brilliance. Rolling peaks, misty rivers, fishing villages, waterside pavilions, long bridges, tiny figures and birds are all rendered with extraordinary delicacy. The composition masterfully combines high distance, deep distance, and level distance, so that the scene changes with every step.</p>
+                <p>元人溥光赞其“独步千载，众星之孤月”。画上钤有三十余方鉴藏印，流传九百余年，是故宫镇馆之宝。</p>
+                <p>Pu Guang, a Yuan Dynasty scholar, praised it as "the solitary moon among a multitude of stars." Adorned with over thirty imperial and collector seals, the painting has traveled through nine centuries and now stands as a crown jewel of the Palace Museum.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="footer">
+    <p>© 2025 “VR+语言”驱动下的中国古画对外传播研究——以《煮茶图》为例</p>
+    <p>🎋 艺术鉴赏 · 语言助力 · 技术实现 · 平台传播 —— 让世界看懂中国古画</p>
+</div>
+</body>
+</html>

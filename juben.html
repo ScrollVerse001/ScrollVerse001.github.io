@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>Script | 剧本</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            background: #f7f3eb;  
+            font-family: 'Georgia', 'Times New Roman', '宋体', 'SimHei', 'Segoe UI', serif;
+            color: #2e241f;
+            line-height: 1.65;
+            padding: 2rem 1rem;
+        }
+
+        .script-container {
+            max-width: 880px;
+            margin: 0 auto;
+            background: #fffef7;
+            border-radius: 32px;
+            box-shadow: 0 20px 35px -12px rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.05);
+            overflow: hidden;
+            padding: 2.5rem 2rem;
+            transition: all 0.2s;
+        }
+
+        .title-block {
+            text-align: center;
+            margin-bottom: 2.8rem;
+            border-bottom: 2px solid #d9c8b2;
+            padding-bottom: 1.5rem;
+        }
+        .title-block h1 {
+            font-size: 2rem;
+            letter-spacing: 2px;
+            font-weight: 500;
+            color: #4a2c1a;
+            margin-bottom: 0.5rem;
+        }
+
+        .paragraph {
+            margin-bottom: 1.4rem;
+            font-size: 1rem;
+            text-align: justify;
+            word-break: break-word;
+        }
+
+        .mark {
+            font-weight: 600;
+            color: #b45f2b;
+        }
+
+        .chinese {
+            font-weight: 400;
+        }
+
+        .english {
+            font-weight: 700;
+            font-size: 0.92rem;
+            color: #4a3a2a;
+            border-left: 3px solid #e2cfb3;
+            padding-left: 1rem;
+            margin-top: 0.25rem;
+            margin-bottom: 1rem;
+            font-style: normal;
+            font-family: 'Segoe UI', 'Roboto', 'Georgia', serif;
+        }
+
+        .english strong, .english b {
+            font-weight: 700;
+        }
+
+        .scene-break {
+            margin: 1.8rem 0 1.2rem;
+            text-align: center;
+            font-weight: 500;
+            color: #aa7c58;
+            letter-spacing: 2px;
+            font-size: 1.1rem;
+            position: relative;
+        }
+        .scene-break:before, .scene-break:after {
+            content: "✦";
+            font-size: 0.8rem;
+            padding: 0 12px;
+            opacity: 0.6;
+        }
+        .scene-break:before {
+            content: "❈";
+        }
+        .scene-break:after {
+            content: "❈";
+        }
+
+        hr.divider-light {
+            margin: 1rem 0;
+            border: none;
+            height: 1px;
+            background: linear-gradient(to right, transparent, #d9c8b2, transparent);
+        }
+
+        @media (max-width: 650px) {
+            .script-container {
+                padding: 1.5rem;
+            }
+            .title-block h1 {
+                font-size: 1.6rem;
+            }
+            .paragraph {
+                font-size: 0.95rem;
+            }
+            .english {
+                font-size: 0.85rem;
+            }
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 2rem;
+            font-size: 0.75rem;
+            color: #bba88c;
+            border-top: 1px solid #e9dfd1;
+            padding-top: 1.5rem;
+        }
+    </style>
+</head>
+<body>
+<div class="script-container">
+    <div class="title-block">
+        <h1><strong>《茶文化的时空之旅》</strong></h1>
+        <div style="font-size: 1.2rem; color: #aa8a6a; font-style: italic;"><strong>A Journey Through Time and Space of Tea Culture</strong></div>
+        <h2 style="text-align: center; font-size: 1rem; font-weight: normal; color: #8b694a; letter-spacing: 1px; margin-top: 0.5rem;"><strong>VR互动创意剧本 | VR Interactive Creative Script</strong></h2>
+    </div>
+    <div class="scene-break">第一幕 · Act One</div>
+
+    <div class="paragraph chinese"><span class="mark">[旁白]</span>：中国的饮茶方式千变万化，但茶文化的核心内涵却绵延不绝、亘古不变。在明朝初年，明太祖朱元璋下令改革贡茶制度，推崇散茶，使得泡茶法逐渐成为主流。正是在这样的时代背景下，宫廷画师丁云鹏创作了《煮茶图》，故事就发生在这幅画.这天，画作里原本平静的生活因为一个人的觉醒而发生了翻天覆地的变化......</div>
+    <div class="paragraph english">The methods of drinking tea in China have evolved in countless ways, yet the core essence of tea culture remains timeless and enduring. In the early Ming Dynasty, Emperor Zhu Yuanzhang reformed the tribute tea system, promoting loose tea, which led to the gradual mainstreaming of tea-brewing methods. Against this historical backdrop, the court painter Ding Yunpeng created <em>Boiling Tea</em>. Within this artwork, a once tranquil scene is set to undergo a profound transformation, sparked by the awakening of a single character.</div>
+
+    <div class="scene-break">第二幕 · Act Two</div>
+
+    <div class="paragraph chinese"><span class="mark">[卢仝]</span>：哎，这是什么？它通体呈现橘红色，外表坚固，看来是上等茶具......</div>
+    <div class="paragraph english">What's this? Look at its outer texture--overall orange-red and solid. It must be a top-grade stuff.</div>
+
+    <div class="paragraph chinese"><span class="mark">[小紫砂壶]</span>：啊！你弄疼我了。</div>
+    <div class="paragraph english"><strong>Ah...You are hurting me!</strong></div>
+
+    <div class="paragraph chinese"><span class="mark">[卢仝]</span>：对不起。请问您就是这个茶具吗？</div>
+    <div class="paragraph english">I'm sorry. But... Oh, no, you are the tea set itself!</div>
+
+    <div class="paragraph chinese"><span class="mark">[小紫砂壶]</span>：是的，我叫紫砂壶。</div>
+    <div class="paragraph english"><strong>Yes! You can call me purple clay pot.</strong></div>
+
+    <div class="paragraph chinese"><span class="mark">[卢仝]</span>：我是从唐朝来的卢仝，不知道为什么会出现在这幅画上，请问你知道吗？</div>
+    <div class="paragraph english">I am Lu Tong from Tang Dynasty. Do you know why am I here in the painting?</div>
+
+    <div class="paragraph chinese"><span class="mark">[小紫砂壶]</span>：你就是丁云鹏笔下绘画的茶仙卢仝！我听说过你，你对茶艺有着极大的研究，在唐朝饮茶活动追崇奢靡的风气时，你坚持质朴无华的茶道精神。</div>
+    <div class="paragraph english"><strong>I know you, Tea Sage Lu Tong depicted in Ding Yunpeng's painting. You are a master who pursued a profound understanding of the tea ceremony. In the Tang Dynasty, when tea-drinking often became overly extravagant, you remained committed to an unpretentious spirit of tea.</strong></div>
+    <div class="paragraph chinese"><span class="mark">[小紫砂壶]</span>：你在我们明朝茶具界也鼎鼎有名。</div>
+    <div class="paragraph english"><strong>Even in our Ming Dynasty, your name is renowned in the world of tea utensils.</strong></div>
+
+    <div class="paragraph chinese"><span class="mark">[卢仝]</span>：过奖了。原来你来自未来的明朝，朝代变化真快啊!你和我在唐朝使用过的茶具完全不一样，当时唐朝盛行煎茶，我多用茶釜煮茶，以茶碗品茶，然而你呈现壶状，明朝应该多以泡茶为主吧。</div>
+    <div class="paragraph english">You flatter me. So, you're from the future Ming Dynasty. How quickly dynasties change! The tea sets we used in the Tang Dynasty are entirely different from yours. Back then, decocting tea was popular, and I often used a tea cauldron to boil water and a tea bowl to savor it. But since you're shaped like a kettle, I assume that in the Ming Dynasty, people mostly brew tea, right?</div>
+
+    <div class="paragraph chinese"><span class="mark">[小紫砂壶]</span>：是的，我们紫砂壶一祖具有泡茶不失原味、耐温性强同时不易烫手的特点，因此深受推崇。</div>
+    <div class="paragraph english"><strong>Yes, we, purple clay pots family, deserved to be publicized for maintaining the originality of tea flavor and resisting high-temperature.</strong></div>
+
+    <div class="paragraph chinese"><span class="mark">[卢仝]</span>：那你能教我明朝的饮茶方法吗？在唐代，我记得我经常在房子附近的溪边取水，放入锅中然后煮沸......</div>
+    <div class="paragraph english">Could you please teach me how to drink tea in Ming dynasty? I remember, in Tang Dynasty, I often fetch water from bank near my house, pour it in the pot and then...</div>
+
+    <div class="paragraph chinese"><span class="mark">[小紫砂壶]</span>：这太不一样了！我看见明代的文士取水泡茶非常讲究。看，像这样干净的水才可以被使用。</div>
+    <div class="paragraph english"><strong>No, it's not the same! I have seen Ming Scholars obtain water for brewing tea in a particular way. Look, such clean water can be used.</strong></div>
+
+    <div class="paragraph chinese"><span class="mark">[小紫砂壶]</span>：因茶饼制作耗时，到明初饮茶方式就演变为了冲泡茶叶、用茶壶泡出味道。用紫砂壶泡出来的茶可香了！</div>
+    <div class="paragraph english"><strong>And due to the time-consuming process of making tea cakes, by the early Ming Dynasty, the tea-drinking habit evolved into brewing loose tea leaves and extracting flavor using teapots--that is me, the purple clay pot, making fragrance of tea fill over the air.</strong></div>
+
+    <div class="paragraph chinese"><span class="mark">[卢仝]</span>：是啊，茶艺随着时代越来越精进了！今天，我也算是长见识了！</div>
+    <div class="paragraph english">Indeed, the art of tea has kept increasingly refined over time! Today, I've truly broadened my horizons!</div>
+
+    <div class="paragraph chinese"><span class="mark">[小紫砂壶]</span>：其实不管煮茶方式如何变化，煮茶的精髓内核依旧被后世牢记！文人雅士也受到前辈们的影响，一直坚持品茶来修养身心，陶冶情操。</div>
+    <div class="paragraph english"><strong>No matter how brewing methods may change, the core essence of boiling tea circulates through descendant generations. Scholars, influenced by their predecessors, have consistently adhered to the practice of tea tasting to cultivate their minds and refine their spirits.</strong></div>
+
+    <div class="paragraph chinese"><span class="mark">[卢仝]</span>：我一生追求精神富足。我能与茶结缘，也是被茶中所蕴涵的哲理吸引，品茶品的不仅仅是茶的味道，更是一种茶人精神啊。在这个浮躁的时代，这样一杯茶，淡然清幽，正能唤醒心中的安宁。</div>
+    <div class="paragraph english">I have pursued spiritual richness throughout my life. I was attracted to the profound philosophy within tea. Appreciating tea is not merely about tasting its flavor, but embracing the spirit behind tea. In this fast-paced era, such a cup of tea, serene and refreshing, serves as a reminder of inner peace.</div>
+
+    <div class="paragraph chinese"><span class="mark">[小紫砂壶]</span>：这也正是画家丁云鹏想要表达的。这幅画不仅仅是为了记录晚明文人讲究的饮茶方式，也是传递品茶人具备的宁静淡泊的性情。我作为茶具，也要继续履行我的职责了！再见！</div>
+    <div class="paragraph english"><strong>This is precisely what Ding Yunpeng want to express. This painting not only records refined tea-drinking customs of late Ming Dynasty scholars, but also portrays the tranquil disposition of people drinking tea. As a tea utensil, I should continue to fulfill my duty. Goodbye!</strong></div>
+
+    <div class="paragraph chinese"><span class="mark">[卢仝]</span>：再见，不虚今日此行啊！也不知道未来的饮茶方式会发生什么样的变化......</div>
+    <div class="paragraph english">Goodbye. How worthy the experience is today! It puzzles me what change it will take in the way of drinking tea in the future.</div>
+
+    <div class="paragraph chinese"><span class="mark">[旁白]</span>：卢仝和小紫砂壶的故事结束了，但茶的故事依旧延续着。</div>
+    <div class="paragraph english">The tale between Lu Tong and purple clay pot comes to an end, but tea culture continues to prosper.</div>
+
+    <div class="scene-break">第三幕 · Act Three</div>
+
+    <div class="paragraph chinese"><span class="mark">[旁白]</span>：如今，饮茶方式更加多元和创新。在繁忙的工作结束后，人们会与朋友约在茶室放松自己。在茶室喝茶，人们只需要将装有茶叶的茶壶放在炉子上煮沸就能饮用。同时，奶茶店如雨后春笋般涌现在城市的每个角落。一杯奶茶，融合了茶的清香与牛奶的醇厚，成为年轻人手中的时尚符号。</div>
+    <div class="paragraph english">Today, tea drinking has become more diverse and innovative. After a busy day, people gather in tea houses to unwind. In these tea houses, one simply needs to place a teapot with tea leaves on the stove to boil. Meanwhile, bubble tea shops have sprung up on every corner of the city. A cup of milk tea, blending the aroma of tea with the richness of milk, has become a fashionable symbol in the hands of the youth.</div>
+
+    <div class="paragraph chinese"><span class="mark">[旁白]</span>：在丁云鹏的《煮茶图》中，我们看见了古人煮茶的宁静与专注，这是茶文化的深厚底蕴。而现代的饮茶方式，都是对这种底蕴的演绎。虽然形式上有所不同，但茶文化体现的“陶情适性”的内核是古今相通的。</div>
+    <div class="paragraph english">The tranquility and focus expressed in the process of boiling tea are central themes of <em>Boiling Tea Painting</em>, conveying a profound and enduring heritage in tea culture. Modern tea-drinking habits are contemporary interpretations of this tradition. Though the forms differ, the core essence of tea culture, which is to cultivate the mind and align with one's nature, remains consistent across ancient and modern times.</div>
+
+    <div class="paragraph chinese"><span class="mark">[旁白]</span>：在全球化的今天，茶文化的传承与创新，不仅是对自身文化基因的延续和发扬，更是对世界文化多样性的一份珍贵贡献。</div>
+    <div class="paragraph english">In an era of globalization, the growth of tea culture spreads the deep spirit of Chinese heritage and enriches cultural diversity worldwide.</div>
+
+    <hr class="divider-light">
+    <div style="text-align: center; font-family: monospace; font-size: 0.8rem; color: #b59373;">—— 剧本终 · The end ——</div>
+</div>
+</body>
+</html>

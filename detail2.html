@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>古砖花供图 | ScrollVerse画卷宇宙</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', system-ui, sans-serif;
+            background-color: #faf7f2;
+            color: #3e2a1f;
+            line-height: 1.5;
+        }
+        .navbar {
+            background-color: #2c2418;
+            padding: 0 5%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        .logo a {
+            color: #e6d5b8;
+            font-size: 1.6rem;
+            font-weight: 500;
+            text-decoration: none;
+            letter-spacing: 2px;
+            padding: 14px 0;
+            display: inline-block;
+        }
+        .logo span { color: #c79a2e; font-weight: bold; }
+        .nav-links {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            list-style: none;
+        }
+        .nav-links li a {
+            display: inline-block;
+            padding: 14px 18px;
+            color: #f0e2c5;
+            text-decoration: none;
+            font-size: 1rem;
+            transition: 0.2s;
+            border-radius: 6px;
+        }
+        .nav-links li a:hover { background-color: #4a3827; color: #ffdf9c; }
+        .back-btn {
+            background: #2c2418;
+            color: #f0e2c5;
+            border: none;
+            padding: 8px 20px;
+            border-radius: 30px;
+            cursor: pointer;
+            font-size: 0.9rem;
+            margin-left: 20px;
+        }
+        .back-btn:hover { background: #4a3827; }
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 40px 20px 60px;
+        }
+        .detail-card {
+            background: white;
+            border-radius: 32px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+            border: 1px solid #f0e2cf;
+        }
+        .detail-img {
+            width: 100%;
+            max-height: 500px;
+            object-fit: cover;
+        }
+        .detail-content {
+            padding: 35px;
+        }
+        .detail-title {
+            font-size: 2.2rem;
+            color: #2c2418;
+            margin-bottom: 8px;
+	    text-align: center;
+        }
+        .detail-en {
+            color: #b87c2e;
+            font-size: 1rem;
+            margin-bottom: 20px;
+            letter-spacing: 1px;
+	    text-align: center;
+        }
+        .detail-section {
+            margin-bottom: 25px;
+        }
+        .detail-section h3 {
+            font-size: 1.3rem;
+            color: #b87c2e;
+            margin-bottom: 10px;
+            border-left: 4px solid #b87c2e;
+            padding-left: 12px;
+        }
+        .detail-section p {
+            font-size: 1rem;
+            color: #4a3520;
+            line-height: 1.7;
+            margin-bottom: 12px;
+        }
+        .culture-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 10px;
+        }
+        .culture-tag {
+            background: #efe1cf;
+            padding: 5px 15px;
+            border-radius: 30px;
+            font-size: 0.85rem;
+            color: #5a3a1f;
+        }
+        .lang-box {
+            background: #f5efe6;
+            padding: 20px;
+            border-radius: 24px;
+            margin-top: 20px;
+        }
+        .lang-box h4 {
+            margin-bottom: 12px;
+            color: #2c2418;
+        }
+        .lang-item {
+            display: inline-block;
+            background: white;
+            padding: 6px 14px;
+            margin: 5px 8px 5px 0;
+            border-radius: 25px;
+            font-size: 0.85rem;
+            border: 1px solid #e0cfbc;
+        }
+        .footer {
+            text-align: center;
+            padding: 28px 20px;
+            background: #2c2418;
+            color: #cbbd9f;
+            font-size: 0.85rem;
+            margin-top: 40px;
+        }
+        @media (max-width: 760px) {
+            .navbar { flex-direction: column; padding: 8px 5%; }
+            .detail-content { padding: 20px; }
+            .detail-title { font-size: 1.6rem; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="navbar">
+    <div class="logo"><a href="index.html">Scroll<span>Verse</span> · 画卷宇宙</a></div>
+    <button class="back-btn" onclick="history.back()">← 返回</button>
+</div>
+
+<div class="container">
+    <div class="detail-card">
+        <img class="detail-img" src="https://5b0988e595225.cdn.sohucs.com/images/20180323/5632d6483e694688a2fe6a071a5f7daf.jpeg" alt="古砖花供图">
+        <div class="detail-content">
+            <h1 class="detail-title">《古砖花供图》</h1>
+            <div class="detail-en">Offering Flowers with Ancient Brick · Qing Dynasty</div>
+            
+            <div class="detail-section">
+                <p>《古砖花供图》现藏于浙江省博物馆，已入编“中国绘画大系”《清画全集》第十八卷。其采用创新性画作呈现模式，以独特的审美理念推动了传拓技法的发展。所谓古砖花供，就是创作者释达受把古砖拓成立体的形状，然后再由他和他的朋友补绘花卉。</p>
+                <p>Ancient Bricks with Flowers, currently on display at the Zhejiang Museum, has been included in the 18th volume of the Great Collection of Chinese Paintings, as part of the Complete Collection of Qing Dynasty Paintings. This work employs a creative approach to painting and incorporates unique aesthetic concepts, further advancing rubbing techniques. Shi inked cubic-shaped ancient bricks, which were later complemented with flower designs in collaboration with his friends.</p>
+                <p>画面中，十二块古砖都被拓印为器物的形态，布局合理。画作首卷的四砖内分别绘有竹子、长春花、松、柏这四种植物。在中国文化中，竹子代表着顽强的生命力与文人墨客的高风亮节，同时种植竹子在风水文化中有财源广进、事业节节升高的吉利寓意；长春花代表希望和重生；松柏挺拔的姿态、坚实的根基代表了繁茂常青的永恒力量与坚韧意志。释达受将花木背后蕴藏的情操注入绘画中，让观者体会到绘画人的独具匠心。</p>
+                <p>In the painting, Shi successfully rubbed 12 ancient bricks and transformed them into the shapes of various vessels. The composition is well-organized, achieving harmony and balance. The first four bricks in the opening scroll feature distinctively painted plants: bamboo, periwinkle, pine, and cypress. In Chinese culture, bamboo symbolizes tenacious vitality, noble character, and the unwavering integrity of scholars. In Feng Shui, planting bamboo is also associated with auspicious meanings, such as attracting wealth and ensuring continuous success. The periwinkle represents hope and renewal, while the pine, rooted firmly in the earth, stands for enduring strength, growth, and an indomitable will. Beyond the surface of Shi's painting lies a deeper layer of hidden values and moral principles, which truly define his extraordinary uniqueness.</p>
+                <p>在《古砖花供图》中，释达受最具亮点的技艺便是全形拓。全形拓作为中国的非物质文化遗产，是一种使用宣纸和墨汁，辅以素描、剪纸等技术，将青铜器等器物的立体形状复原到纸上的传拓技法。朴厚的古砖、细致的纹路与生机勃勃的花木形成鲜明的对比，古老与现代化并存，使欣赏画作的人联想到那些古老的器物与知识给予后人的启迪。目触画作，人们能感受到古砖在历史长河中演化的脉络。未来，古砖该何去何从？这也启发了人们的思考。</p>
+                <p>In addition to the distinctive plants that serve as the unique hallmark of Ancient Bricks with Flowers, the technique of Holographic Rubbing plays a crucial role in highlighting the painting's technical brilliance. As a recognized form of Chinese intangible cultural heritage, Holographic Rubbing involves transferring the three-dimensional shapes of bronze wares and other artifacts onto paper using rice paper, ink, and supplemented by sketching and paper-cutting techniques. The ancient bricks, having traversed through the passage of time, carry the weight of historical evolution. Delicate veins spread across the bricks, while flowers and trees bloom vibrantly above them. This vivid contrast between antiquity and burgeoning life creates a dynamic interplay. It evokes a connection between the past and the future, inviting viewers to reflect on the journey of these ancient bricks. “What stories do they hold? How did they come to be?” Such questions naturally draw people deeper into the painting's narrative. </p>
+                <p>金石学作为中国考古学的前身，是对中国古代青铜器和石刻碑碣的研究，以正经补史为目的。以往，青铜器秘不示人，外人很难亲眼观摩青铜器，直到全形拓的出现，人们通过拓本就可以一探究竟，其发展成为金石史上的一个重要里程碑。</p>
+                <p>As the precursor to Chinese archaeology, epigraphy is the study of ancient Chinese bronzes and stone tablets, aimed at correcting errors in classical texts and filling gaps in historical records. Through the use of Holographic Rubbing, Ancient Bricks with Flowers offers a comprehensive perspective on the structure and details of bronzes, which were often hidden from public view. This technique brings ancient artifacts to life, allowing people to observe their intricate designs and craftsmanship. The painting injects new vitality into these once dormant antiquities, showcasing an innovative advancement in epigraphical research.</p>
+                <p>在释达受与众友人的创作下，古砖在这里不再呈现出个体的价值，不再只是一种建筑材料，而是一种集成式肖像。斑驳的墨痕与艳丽的花朵，彼此映衬，娓娓道来当时的繁盛衰落。砖上的各种年号，同样也暗喻着汉晋唐宋的精神一齐复活。那是一种艺术家们的钻研精神、创新精神与赓续精神，同样也传递了当代中国“绘画大系”所蕴藏的工匠精神、传承精神。</p> 
+                <p>The success of this painting lies in the collective wisdom of Shi and his friends. Furthermore, the ancient bricks are not just building materials—they embody a rich cultural essence and symbolize the rebirth of the past. As we gaze into the painting, we can almost feel the bricks carrying the weight of their long, fluctuating history. Amidst the passage of time, what endures are the artists' shining spirits—their ability to break free from constraints, innovate, and pass on their excellence from generation to generation. This spirit aligns with the craftsmanship and moral integrity embodied in the Great Collection of Chinese Painting in contemporary times.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="footer">
+    <p>© 2025 “VR+语言”驱动下的中国古画对外传播研究——以《煮茶图》为例</p>
+    <p>🎋 艺术鉴赏 · 语言助力 · 技术实现 · 平台传播 —— 让世界看懂中国古画</p>
+</div>
+</body>
+</html>
